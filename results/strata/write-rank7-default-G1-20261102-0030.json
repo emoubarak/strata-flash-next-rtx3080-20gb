@@ -1,0 +1,69 @@
+{
+ "label": "G1-strata",
+ "reps": 3,
+ "runs": [
+  {
+   "tg_n": 700,
+   "tg": 105.3,
+   "drafts": "331/720",
+   "test": "prose",
+   "rep": 0
+  },
+  {
+   "tg_n": 700,
+   "tg": 148.2,
+   "drafts": "493/577",
+   "test": "code",
+   "rep": 0
+  },
+  {
+   "tg_n": 700,
+   "tg": 177.6,
+   "drafts": "572/576",
+   "test": "reecriture",
+   "rep": 0
+  },
+  {
+   "tg_n": 700,
+   "tg": 103.7,
+   "drafts": "330/665",
+   "test": "prose",
+   "rep": 1
+  },
+  {
+   "tg_n": 700,
+   "tg": 150.2,
+   "drafts": "495/572",
+   "test": "code",
+   "rep": 1
+  },
+  {
+   "tg_n": 700,
+   "tg": 177.7,
+   "drafts": "571/575",
+   "test": "reecriture",
+   "rep": 1
+  },
+  {
+   "tg_n": 700,
+   "tg": 108.3,
+   "drafts": "356/654",
+   "test": "prose",
+   "rep": 2
+  },
+  {
+   "tg_n": 700,
+   "tg": 146.8,
+   "drafts": "491/583",
+   "test": "code",
+   "rep": 2
+  },
+  {
+   "tg_n": 700,
+   "tg": 177.5,
+   "drafts": "571/575",
+   "test": "reecriture",
+   "rep": 2
+  }
+ ]
+}

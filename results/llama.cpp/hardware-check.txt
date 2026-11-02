@@ -1,0 +1,15 @@
+name, memory.total [MiB], vbios_version, driver_version, power.limit [W], power.max_limit [W]
+NVIDIA GeForce RTX 3080, 20480 MiB, 94.02.27.00.14, 615.78.08, 320.00 W, 320.00 W
+--- pcie ---
+01:00.0 VGA compatible controller: NVIDIA Corporation GA102 [GeForce RTX 3080] (rev a1)
+--- gpu-burn ---
+
+Tested 1 GPUs:
+	GPU 0: OK
+GPU_BURN_RC=0
+--- vram ---
+GPU: NVIDIA GeForce RTX 3080 | 20106 MiB
+lecture seule : 2176 blocs x 256 threads
+lecture  :   723.6 Go/s (5.9 ms)
+lecture  :   724.8 Go/s (5.9 ms)
+lecture  :   724.5 Go/s (5.9 ms)

@@ -1,0 +1,25 @@
+{
+ "label": "prod-rang4-long",
+ "runs": [
+  {
+   "wall": 68.3,
+   "usage": {
+    "prompt_tokens": 162343,
+    "completion_tokens": 32,
+    "total_tokens": 162375,
+    "prompt_tokens_details": {
+     "cached_tokens": 0
+    }
+   },
+   "pp_tok": 162343,
+   "reused": 0,
+   "pp": 2394.8,
+   "pp_ms": 67790,
+   "tg": 87.4,
+   "drafts": "19/24",
+   "hit": "54.4%",
+   "text": "Strata is a local AI engine for Qwen3.8-Flash-Next models th",
+   "target_k": 180
+  }
+ ]
+}

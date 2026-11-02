@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+<rect width="1200" height="400" rx="16" fill="#0d1117"/>
+<text x="30" y="52" font-size="26" font-weight="700" fill="#e6edf3" text-anchor="start" font-family="Liberation Sans, Helvetica, Arial, sans-serif">STRATA_ROUTE_TAIL_SKIP: code generation speed vs cold accuracy</text>
+<text x="30" y="80" font-size="15" font-weight="400" fill="#8b949e" text-anchor="start" font-family="Liberation Sans, Helvetica, Arial, sans-serif">Bars: code t/s (median of 3 runs, 6 at rank 7). Label: two-digit multiplications right after start, out of 40 (38 = the model's own ceiling).</text>
+<rect x="90" y="149" width="110" height="201" rx="4" fill="#f0883e"/>
+<text x="145.0" y="118.52000000000004" font-size="17" font-weight="700" fill="#e6edf3" text-anchor="middle" font-family="Liberation Sans, Helvetica, Arial, sans-serif">175 t/s</text>
+<text x="145.0" y="138.52000000000004" font-size="15" font-weight="600" fill="#f0883e" text-anchor="middle" font-family="Liberation Sans, Helvetica, Arial, sans-serif">34/40</text>
+<text x="145.0" y="374" font-size="15" font-weight="400" fill="#8b949e" text-anchor="middle" font-family="Liberation Sans, Helvetica, Arial, sans-serif">rank 1</text>
+<rect x="265" y="150" width="110" height="200" rx="4" fill="#f0883e"/>
+<text x="320.0" y="120.01500000000001" font-size="17" font-weight="700" fill="#e6edf3" text-anchor="middle" font-family="Liberation Sans, Helvetica, Arial, sans-serif">174 t/s</text>
+<text x="320.0" y="140.01500000000001" font-size="15" font-weight="600" fill="#f0883e" text-anchor="middle" font-family="Liberation Sans, Helvetica, Arial, sans-serif">37/40</text>
+<text x="320.0" y="374" font-size="15" font-weight="400" fill="#8b949e" text-anchor="middle" font-family="Liberation Sans, Helvetica, Arial, sans-serif">rank 2</text>
+<rect x="440" y="155" width="110" height="195" rx="4" fill="#f0883e"/>
+<text x="495.0" y="125.19" font-size="17" font-weight="700" fill="#e6edf3" text-anchor="middle" font-family="Liberation Sans, Helvetica, Arial, sans-serif">169 t/s</text>
+<text x="495.0" y="145.19" font-size="15" font-weight="600" fill="#f0883e" text-anchor="middle" font-family="Liberation Sans, Helvetica, Arial, sans-serif">37/40</text>
+<text x="495.0" y="374" font-size="15" font-weight="400" fill="#8b949e" text-anchor="middle" font-family="Liberation Sans, Helvetica, Arial, sans-serif">rank 3</text>
+<rect x="615" y="159" width="110" height="191" rx="4" fill="#3fb950"/>
+<text x="670.0" y="128.985" font-size="17" font-weight="700" fill="#e6edf3" text-anchor="middle" font-family="Liberation Sans, Helvetica, Arial, sans-serif">166 t/s</text>
+<text x="670.0" y="148.985" font-size="15" font-weight="600" fill="#3fb950" text-anchor="middle" font-family="Liberation Sans, Helvetica, Arial, sans-serif">38/40</text>
+<text x="670.0" y="374" font-size="15" font-weight="600" fill="#e6edf3" text-anchor="middle" font-family="Liberation Sans, Helvetica, Arial, sans-serif">rank 4 (kept)</text>
+<rect x="790" y="165" width="110" height="185" rx="4" fill="#6e7681"/>
+<text x="845.0" y="134.735" font-size="17" font-weight="700" fill="#e6edf3" text-anchor="middle" font-family="Liberation Sans, Helvetica, Arial, sans-serif">161 t/s</text>
+<text x="845.0" y="154.735" font-size="15" font-weight="600" fill="#3fb950" text-anchor="middle" font-family="Liberation Sans, Helvetica, Arial, sans-serif">38/40</text>
+<text x="845.0" y="374" font-size="15" font-weight="400" fill="#8b949e" text-anchor="middle" font-family="Liberation Sans, Helvetica, Arial, sans-serif">rank 5</text>
+<rect x="965" y="179" width="110" height="171" rx="4" fill="#6e7681"/>
+<text x="1020.0" y="148.65" font-size="17" font-weight="700" fill="#e6edf3" text-anchor="middle" font-family="Liberation Sans, Helvetica, Arial, sans-serif">149 t/s</text>
+<text x="1020.0" y="168.65" font-size="15" font-weight="600" fill="#3fb950" text-anchor="middle" font-family="Liberation Sans, Helvetica, Arial, sans-serif">38/40</text>
+<text x="1020.0" y="374" font-size="15" font-weight="600" fill="#e6edf3" text-anchor="middle" font-family="Liberation Sans, Helvetica, Arial, sans-serif">rank 7 (default)</text>
+</svg>

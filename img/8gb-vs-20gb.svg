@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+<rect width="1200" height="360" rx="16" fill="#0d1117"/>
+<text x="30" y="52" font-size="26" font-weight="700" fill="#e6edf3" text-anchor="start" font-family="Liberation Sans, Helvetica, Arial, sans-serif">Same mini PC, same cable: RTX 3060 Ti 8 GB (Oct 14) vs RTX 3080 20 GB (Nov 2)</text>
+<rect x="30" y="72" width="14" height="14" fill="#6e7681"/><text x="52" y="84" font-size="15" font-weight="400" fill="#8b949e" text-anchor="start" font-family="Liberation Sans, Helvetica, Arial, sans-serif">3060 Ti 8 GB, Strata 0.1.43</text>
+<rect x="300" y="72" width="14" height="14" fill="#3fb950"/><text x="322" y="84" font-size="15" font-weight="400" fill="#8b949e" text-anchor="start" font-family="Liberation Sans, Helvetica, Arial, sans-serif">3080 20 GB, Strata 0.2.9</text>
+<text x="30" y="138" font-size="17" font-weight="600" fill="#e6edf3" text-anchor="start" font-family="Liberation Sans, Helvetica, Arial, sans-serif">Long prompt read (t/s)</text>
+<text x="30" y="160" font-size="14" font-weight="400" fill="#8b949e" text-anchor="start" font-family="Liberation Sans, Helvetica, Arial, sans-serif">7.9k tokens → 36k tokens</text>
+<rect x="330" y="120" width="148" height="22" rx="4" fill="#6e7681"/>
+<text x="486.20000000000005" y="137" font-size="15" font-weight="400" fill="#8b949e" text-anchor="start" font-family="Liberation Sans, Helvetica, Arial, sans-serif">390</text>
+<rect x="330" y="148" width="758" height="22" rx="4" fill="#3fb950"/>
+<text x="1096.1" y="165" font-size="15" font-weight="700" fill="#e6edf3" text-anchor="start" font-family="Liberation Sans, Helvetica, Arial, sans-serif">1,995  ×5.1</text>
+<text x="30" y="218" font-size="17" font-weight="600" fill="#e6edf3" text-anchor="start" font-family="Liberation Sans, Helvetica, Arial, sans-serif">File rewrite, same prompt (t/s)</text>
+<text x="30" y="240" font-size="14" font-weight="400" fill="#8b949e" text-anchor="start" font-family="Liberation Sans, Helvetica, Arial, sans-serif">934-token file, 2,500 max</text>
+<rect x="330" y="200" width="31" height="22" rx="4" fill="#6e7681"/>
+<text x="369.16" y="217" font-size="15" font-weight="400" fill="#8b949e" text-anchor="start" font-family="Liberation Sans, Helvetica, Arial, sans-serif">82</text>
+<rect x="330" y="228" width="71" height="22" rx="4" fill="#3fb950"/>
+<text x="409.06" y="245" font-size="15" font-weight="700" fill="#e6edf3" text-anchor="start" font-family="Liberation Sans, Helvetica, Arial, sans-serif">187  ×2.3</text>
+<text x="30" y="298" font-size="17" font-weight="600" fill="#e6edf3" text-anchor="start" font-family="Liberation Sans, Helvetica, Arial, sans-serif">Prose generation (t/s)</text>
+<text x="30" y="320" font-size="14" font-weight="400" fill="#8b949e" text-anchor="start" font-family="Liberation Sans, Helvetica, Arial, sans-serif">poem → 600-word essay</text>
+<rect x="330" y="280" width="21" height="22" rx="4" fill="#6e7681"/>
+<text x="358.9" y="297" font-size="15" font-weight="400" fill="#8b949e" text-anchor="start" font-family="Liberation Sans, Helvetica, Arial, sans-serif">55</text>
+<rect x="330" y="308" width="42" height="22" rx="4" fill="#3fb950"/>
+<text x="379.8" y="325" font-size="15" font-weight="700" fill="#e6edf3" text-anchor="start" font-family="Liberation Sans, Helvetica, Arial, sans-serif">110  ×2.0</text>
+</svg>

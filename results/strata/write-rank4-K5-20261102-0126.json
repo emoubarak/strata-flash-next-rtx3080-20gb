@@ -1,0 +1,69 @@
+{
+ "label": "K5-base",
+ "reps": 3,
+ "runs": [
+  {
+   "tg_n": 700,
+   "tg": 110.4,
+   "drafts": "319/672",
+   "test": "prose",
+   "rep": 0
+  },
+  {
+   "tg_n": 700,
+   "tg": 162.1,
+   "drafts": "488/590",
+   "test": "code",
+   "rep": 0
+  },
+  {
+   "tg_n": 700,
+   "tg": 199.2,
+   "drafts": "571/578",
+   "test": "reecriture",
+   "rep": 0
+  },
+  {
+   "tg_n": 700,
+   "tg": 107.4,
+   "drafts": "326/694",
+   "test": "prose",
+   "rep": 1
+  },
+  {
+   "tg_n": 700,
+   "tg": 164.2,
+   "drafts": "490/570",
+   "test": "code",
+   "rep": 1
+  },
+  {
+   "tg_n": 700,
+   "tg": 203.3,
+   "drafts": "572/575",
+   "test": "reecriture",
+   "rep": 1
+  },
+  {
+   "tg_n": 700,
+   "tg": 111.2,
+   "drafts": "342/689",
+   "test": "prose",
+   "rep": 2
+  },
+  {
+   "tg_n": 700,
+   "tg": 165.9,
+   "drafts": "491/577",
+   "test": "code",
+   "rep": 2
+  },
+  {
+   "tg_n": 700,
+   "tg": 204.0,
+   "drafts": "572/575",
+   "test": "reecriture",
+   "rep": 2
+  }
+ ]
+}

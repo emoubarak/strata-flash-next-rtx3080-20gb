@@ -1,0 +1,69 @@
+{
+ "label": "H-rang4",
+ "reps": 3,
+ "runs": [
+  {
+   "tg_n": 700,
+   "tg": 112.5,
+   "drafts": "336/693",
+   "test": "prose",
+   "rep": 0
+  },
+  {
+   "tg_n": 700,
+   "tg": 166.7,
+   "drafts": "495/578",
+   "test": "code",
+   "rep": 0
+  },
+  {
+   "tg_n": 700,
+   "tg": 204.7,
+   "drafts": "572/575",
+   "test": "reecriture",
+   "rep": 0
+  },
+  {
+   "tg_n": 700,
+   "tg": 112.3,
+   "drafts": "336/631",
+   "test": "prose",
+   "rep": 1
+  },
+  {
+   "tg_n": 700,
+   "tg": 166.1,
+   "drafts": "490/579",
+   "test": "code",
+   "rep": 1
+  },
+  {
+   "tg_n": 700,
+   "tg": 203.4,
+   "drafts": "572/575",
+   "test": "reecriture",
+   "rep": 1
+  },
+  {
+   "tg_n": 700,
+   "tg": 107.2,
+   "drafts": "318/691",
+   "test": "prose",
+   "rep": 2
+  },
+  {
+   "tg_n": 700,
+   "tg": 164.1,
+   "drafts": "490/580",
+   "test": "code",
+   "rep": 2
+  },
+  {
+   "tg_n": 700,
+   "tg": 204.6,
+   "drafts": "571/573",
+   "test": "reecriture",
+   "rep": 2
+  }
+ ]
+}

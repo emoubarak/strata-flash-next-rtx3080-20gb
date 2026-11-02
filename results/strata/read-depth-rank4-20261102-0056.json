@@ -1,0 +1,43 @@
+{
+ "label": "prod-rang4",
+ "max_new": 200,
+ "reps": 1,
+ "runs": [
+  {
+   "wall": 8.2,
+   "pp_tok": 14690,
+   "reused": 0,
+   "pp": 1997.9,
+   "pp_ms": 7353,
+   "tg_n": 80,
+   "tg": 94.8,
+   "drafts": "40/67",
+   "target_k": 15,
+   "rep": 0
+  },
+  {
+   "wall": 18.8,
+   "pp_tok": 36053,
+   "reused": 0,
+   "pp": 1995.0,
+   "pp_ms": 18072,
+   "tg_n": 79,
+   "tg": 114.5,
+   "drafts": "44/62",
+   "target_k": 40,
+   "rep": 0
+  },
+  {
+   "wall": 32.1,
+   "pp_tok": 73891,
+   "reused": 0,
+   "pp": 2367.3,
+   "pp_ms": 31213,
+   "tg_n": 88,
+   "tg": 105.0,
+   "drafts": "45/74",
+   "target_k": 82,
+   "rep": 0
+  }
+ ]
+}
