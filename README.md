@@ -87,7 +87,7 @@ The refusal direction is subtracted from the residual stream at layers 4-44 (`--
 `config/strata-q2_0.template.json` (replace `$HOME`) and `config/env.sh`. Serve with:
 
 ```sh
-cd ~/repos/tools/strata
+cd ~/src/strata
 source /path/to/this/repo/config/env.sh
 .venv/bin/python serve/server.py --engine strata --config strata-q2_0.json --port 18090
 ```
@@ -150,14 +150,14 @@ Qwen3.6-35B-A3B with 64k context in llama-server: `--n-cpu-moe 6`, KV `q8_0`, 10
 ## Reproduce
 
 ```sh
-git clone https://github.com/Niko1221/Strata ~/repos/tools/strata
-cd ~/repos/tools/strata && git checkout v0.2.9
+git clone https://github.com/Niko1221/Strata ~/src/strata
+cd ~/src/strata && git checkout v0.2.9
 ./setup.sh --model qwen3.8-flash-next --family q2_0   # ~66 GB download + CUDA build
 ./setup.sh --calibrate --yes                          # checks the defaults on YOUR machine
 # copy config/strata-q2_0.template.json -> strata-q2_0.json (replace $HOME), source config/env.sh, serve (see above)
 
 cd /path/to/this/repo/bench
-LOG=~/repos/tools/strata/strata-q2_0.log
+LOG=~/src/strata/strata-q2_0.log
 python3 bench_arith.py 18090                  # cold accuracy, run first, right after start
 python3 bench_decode.py 18090 $LOG mylabel    # generation: prose, code, rewrite
 python3 bench_ctx.py 18090 $LOG mylabel 15 40 82 180
