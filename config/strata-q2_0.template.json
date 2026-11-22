@@ -1,7 +1,7 @@
 {
  "_comment": "Strata 0.2.9 serve config for Qwen3.8-Flash-Next Q2_0 on an RTX 3080 20 GB (OCuLink Gen4 x4) + Ryzen 7 8845HS, 64 GB RAM.",
  "_comment2": "Copy to your Strata checkout as strata-q2_0.json and replace $HOME. Start it with the env of config/env.sh. See ../README.md.",
- "exe": "$HOME/repos/tools/strata/engine/strata",
+ "exe": "$HOME/src/strata/engine/strata",
  "args": [
   "--pack",
   "$HOME/.local/share/strata/packs/q2_0",
@@ -10,7 +10,7 @@
   "--ple-gguf",
   "$HOME/.local/share/strata/models/Q2_0/Qwen3.8-Flash-Next-GSQ-RCO-Q2_0-00002-of-00002.gguf",
   "--expert-profile",
-  "$HOME/repos/tools/strata/data/expert-profile.bin",
+  "$HOME/src/strata/data/expert-profile.bin",
   "--expert-cache",
   "auto",
   "--prefill",
@@ -45,10 +45,10 @@
   "--conversation-cache-slots",
   "4"
  ],
- "cwd": "$HOME/repos/tools/strata",
+ "cwd": "$HOME/src/strata",
  "tokenizer": "$HOME/.local/share/strata/packs/q2_0/tokenizer",
  "model_name": "qwen3.8-flash-next-q2_0",
- "log": "$HOME/repos/tools/strata/strata-q2_0.log",
+ "log": "$HOME/src/strata/strata-q2_0.log",
  "lib_dirs": [
   "/usr/local/cuda-13.4/bin",
   "/usr/local/cuda-13.4/lib64"
