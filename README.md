@@ -42,7 +42,7 @@ the same file rewrite writes ×2.3, prose ×2 (the 8 GB number was the shorter a
 | Test | Score |
 |---|---|
 | 40 two-digit multiplications, cold (right after start), thinking off, temperature 0 | **38/40**, same two misses (36×59, 71×86) as the default settings |
-| In-house agentic decision exam, 20 cases × 4 runs | **36/40** (always misses the same one case) |
+| In-house agentic decision exam, 10 cases × 4 runs | **36/40** (always misses the same one case) |
 | File rewrite | faithful (only the requested rename) |
 | Tool calls, OpenAI (`tool_calls`) and Anthropic (`tool_use`) APIs | correct |
 
